@@ -1,0 +1,123 @@
+body {
+  background-color: #a9d7d1;
+  text-align: center;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  min-width: 320px;
+}
+
+li {
+  list-style: none;
+}
+
+
+#title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+main {
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 6px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+
+.userRarings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+#comments {
+  width: 300px;
+  height: 80px;
+}
+
+.btn {
+  margin: 2rem
+}
+
+#submit {
+  background-color: #59ace0;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+@media (max-width: 800px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+
+  .rightTab textarea {
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .input-field {
+    width: 100%;
+  }
+
+  
+
+  select {
+    width: 100%;
+  }
+}
+
